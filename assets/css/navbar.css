@@ -43,9 +43,6 @@ body{
 # navbar
 ================== */
 .navbar{
-    position: sticky;
-    top: 0px;
-    z-index: 9999;
     width: 100%;
     background-color: var(--yas-color-light);
     padding: 12px 0px;
