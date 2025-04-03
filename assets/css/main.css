@@ -9,6 +9,7 @@
     --yas-color-light : #ffffff;
     --yas-color-hover-dark : #1f60b0;
     --yas-color-dark : rgba(13, 45, 85, 0.957);
+    --yas-color-navbar : rgba(11, 39, 73, 0.957);
     --yas-border-dark : #bababa;
     --yas-color-black : #202428;
 
@@ -1633,8 +1634,6 @@ section,
 }
 
 
-
-
 /* # Extra Small >576px */
 @media screen and (max-width: 576px) {
     .container{
@@ -1646,10 +1645,15 @@ section,
     .yas-d-none{
         display: none;
     }
+    .banner .banner-info{
+        text-align: center !important;
+    }
     .banner .banner-info h1{
+        text-align: center !important;
         font-size: 3rem;
     }
     .banner .banner-info p{
+        text-align: center !important;
         font-size: 1rem;
     }
     .section .section-text{
@@ -1679,10 +1683,15 @@ section,
         width: 540px;
     }
     /* banner */
+    .banner .banner-info{
+        text-align: center !important;
+    }
     .banner .banner-info h1{
+        text-align: center !important;
         font-size: 3rem;
     }
     .banner .banner-info p{
+        text-align: center !important;
         font-size: 1rem;
     }
 
@@ -1762,13 +1771,6 @@ section,
         width: 720px;
     }
     /* banner */
-    .banner .banner-info h1{
-        text-align: left;
-    }
-    .banner .banner-info p{
-        text-align: left;
-    }
-
     .col-md-1 {
         flex: 0 0 auto;
         width: 8.33333333%;
@@ -1841,11 +1843,16 @@ section,
     .banner .overlay{
         padding: 1rem 0;
     }
+    .banner .banner-info{
+        text-align: left !important;
+    }
     .banner .banner-info h1{
+        text-align: left !important;
         font-size: 3.75rem;
     }
     .banner .banner-info p{
         font-size: 1.125rem;
+        text-align: left !important;
     }
     
     .col-lg-1 {
@@ -1895,6 +1902,11 @@ section,
     .col-lg-12 {
         flex: 0 0 auto;
         width: 100%;
+    }
+    .col-lg-auto {
+        flex: 0 0 auto;
+        width: auto;
+        flex-grow: 1;
     }
     /* yas-d-lg-block */
     .yas-d-lg-block{
