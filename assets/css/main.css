@@ -1204,7 +1204,12 @@ section,
     font-family: "Roboto-Medium", "Battambang-Regular" , sans-serif;
 }
 .form-contact .form-checkbox{
+    display: inline-block;
     width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 2px;
+    transform: translateY(3px);
 }
 .form-contact .nav-link{
     font-weight: 600;
